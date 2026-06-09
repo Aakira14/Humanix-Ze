@@ -16,9 +16,9 @@ export default function Footer() {
             <p className="text-sm leading-relaxed">AI-powered learning for the next generation of students.</p>
             <div className="flex gap-3 mt-4">
               {[GitFork, Globe, Mail].map((Icon, i) => (
-                <a key={i} href="#" className="p-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors">
+                <button key={i} className="p-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors">
                   <Icon size={16} />
-                </a>
+                </button>
               ))}
             </div>
           </div>

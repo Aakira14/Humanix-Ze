@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Brain, TrendingUp, Star, Zap, BookOpen, BarChart2, CheckCircle } from "lucide-react";
+import { ArrowRight, Brain, TrendingUp, Star, Zap, BookOpen, CheckCircle } from "lucide-react";
 import { mockStats } from "../data/mockData";
 import Footer from "../components/Footer";
 

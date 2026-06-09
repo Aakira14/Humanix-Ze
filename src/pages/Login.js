@@ -79,7 +79,7 @@ export default function Login({ onLogin }) {
                 />
                 <span className="text-sm text-gray-600 dark:text-gray-400">Remember me</span>
               </label>
-              <a href="#" className="text-sm text-blue-600 hover:underline">Forgot password?</a>
+              <button type="button" className="text-sm text-blue-600 hover:underline">Forgot password?</button>
             </div>
 
             <button
